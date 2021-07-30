@@ -8,6 +8,7 @@ fun main() {
     var tuoi: Int = 0
     val tuoi_tot_nghiep_dai_hoc: Int = 22
 
+
     println("Bai 2 ")
 
     println("nhap nam sinh cua ban:")
