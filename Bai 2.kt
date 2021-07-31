@@ -16,7 +16,10 @@ fun main() {
     Year_of_Birth = readLine()!!.toInt()
 
     tuoi = this_Year - Year_of_Birth
-
+    if (tuoi<0) {
+        println("dam ghi sai ngay sinh a")
+    }
+    else {
     println("tuoi hien tai cua ban la $tuoi ")
 
     println("va gia su hoc dai hoc can 4 nam de tot nghiep thi")
@@ -29,4 +32,5 @@ fun main() {
     else {
         println("ban da do dai hoc (neu ban do)")
     }
+}
 }
